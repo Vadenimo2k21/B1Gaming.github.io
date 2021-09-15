@@ -15,6 +15,25 @@ body {
 	background-size: cover;
 }
 
+.background {
+	background: url(img/checker.png);
+    position: absolute;
+    width: 100%;
+    left: 0;
+	background-blend-mode: add;
+	background-size: auto auto;
+	animation: checker 5s linear infinite;
+  }
+
+  @keyframes checker {
+	0% {
+	  background-position: 0 0;
+	}
+	100% {
+	  background-position: 136px 136px;
+	}
+  }
+
 a {
 	color: #FFFFFF;
 	text-shadow:  0 0 5px #000000;
