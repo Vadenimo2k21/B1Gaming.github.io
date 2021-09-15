@@ -16,7 +16,7 @@ body {
 }
 
 .background {
-	background: url(img/checker.png);
+	background-image: url("img/diamond.png");
     position: absolute;
     width: 100%;
     left: 0;
