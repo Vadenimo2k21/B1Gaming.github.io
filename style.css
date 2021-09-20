@@ -90,8 +90,16 @@ iframe.playlist {
 	height: auto;
 }
 
-.mnalogo {
-	width: 600px;
+.mnasitelogo {
+	width: 1200px;
+}
+
+.levelscreenshots {
+	width: 25%;
+}
+
+.sstext {
+	font-size: 8pt;
 }
 
 .playlisttext {
