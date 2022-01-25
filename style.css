@@ -82,6 +82,14 @@ iframe.playlist {
 }
 
 .pageparts {
+	background-color: #00000040;
+	color:#FFFFFF;
+	text-shadow:  0 0 5px #000000;
+	left: 0;
+	height: auto;
+}
+
+.ppsheader {
 	background-color: #00000080;
 	color:#FFFFFF;
 	font-size: 24pt;
