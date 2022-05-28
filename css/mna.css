@@ -28,7 +28,7 @@
 .background {
 	background-image: url("../mna/img/diamond.svg");
 	position: absolute;
-	width: 100%;
+	display: flex;
 	left: 0;
 	background-blend-mode: add;
 	background-size: auto auto;

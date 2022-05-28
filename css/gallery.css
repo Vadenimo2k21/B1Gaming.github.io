@@ -1,7 +1,7 @@
 .main {
 	position: absolute;
-	width: 100%;
-	left: 0;
+	width: auto;
+	margin: 10% 10%;
 }
 
 .title {
@@ -10,23 +10,20 @@
 }
 
 .mainalign {
-	margin-top: 70px;
 	text-align: center;
-	margin-bottom: 85px;
+	width: auto;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
 .griditem {
 	background-color: #FFFFFF;
 	border: 1px solid #000000;
 	padding: 20px;
-	font-size: 30px;
+	font-size: 16pt;
 	text-align: center;
 }
 
@@ -47,5 +44,5 @@
 }
 
 .sidenotes {
-	font-size:15px;
+	font-size:12pt;
 }

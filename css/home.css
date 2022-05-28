@@ -49,6 +49,7 @@ body.main {
 	position: absolute;
 	width: 100%;
 	left: 0;
+	display: flex;
 	background-image: url("../img/starfield.png");
 }
 
