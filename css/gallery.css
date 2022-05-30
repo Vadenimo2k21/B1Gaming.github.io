@@ -12,6 +12,7 @@
 .mainalign {
 	text-align: center;
 	width: auto;
+	margin-bottom: 50px;
 }
 
 .grid {
@@ -20,7 +21,7 @@
 }
 
 .griditem {
-	background-color: #FFFFFF;
+	background-color: #DFDFDF;
 	border: 1px solid #000000;
 	padding: 20px;
 	font-size: 16pt;

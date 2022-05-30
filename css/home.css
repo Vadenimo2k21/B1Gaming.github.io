@@ -38,19 +38,18 @@
 	/*animation: rainbow 1.5s linear infinite;*/
 }
 
-body.main {
+.main {
 	background-image: url("../img/background_gradient.png");
-	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: 100% auto;
 	font-family: ContB;
 }
 
 .align {
 	position: absolute;
-	width: 100%;
-	left: 0;
-	display: flex;
 	background-image: url("../img/starfield.png");
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .ghtitle {

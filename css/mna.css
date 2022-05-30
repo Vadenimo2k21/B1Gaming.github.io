@@ -9,11 +9,9 @@
 
 .main {
 	background-image: url("../mna/img/background_gradient_mna.svg");
-	background-attachment: fixed;
 	background-size: 100% 100%;
-	width: 100%;
+	background-attachment: fixed;
 	font-family: MarioFont;
-	color: #000000;
 }
 
 @keyframes checker {
@@ -26,12 +24,11 @@
 }
 
 .background {
-	background-image: url("../mna/img/diamond.svg");
 	position: absolute;
-	display: flex;
+	background-image: url("../mna/img/diamond.svg");
+	top: 0;
 	left: 0;
-	background-blend-mode: add;
-	background-size: auto auto;
+	width: 100%;
 	animation: checker 5s linear infinite;
 }
 
@@ -77,12 +74,12 @@
 	margin-bottom: 56px;
 }
 
-.mnasitelogo {
-	width: 50%;
+.sitelogo {
+	width: 1000px;
 	align-items: center;
 }
 
-.pagepartsmna{
+.pageparts {
 	background-color: #00000040;
 	color: #FFFFFF;
 	font-size: 16pt;
@@ -91,7 +88,7 @@
 	height: auto;
 }
 
-.ppsheadermna{
+.ppsheader {
 	background-color: #00000040;
 	color:#FFFFFF;
 	font-size: 24pt;
@@ -101,7 +98,7 @@
 }
 
 .demodownload {
-	width: 40%;
+	width: 800px;
 }
 
 .grid {
