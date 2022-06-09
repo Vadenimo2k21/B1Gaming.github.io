@@ -40,16 +40,16 @@
 
 .main {
 	background-image: url("../img/background_gradient.png");
-	background-size: 100% auto;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 	font-family: ContB;
 }
 
 .align {
 	position: absolute;
 	background-image: url("../img/starfield.png");
-	top: 0;
-	left: 0;
 	width: 100%;
+	left: 0;
 }
 
 .ghtitle {
