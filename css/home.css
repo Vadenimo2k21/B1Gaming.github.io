@@ -49,6 +49,7 @@
 	background-size: cover;
 	left: 0;
 	margin-top: 40px;
+	min-width: 640px;
 }
 
 .stars {
